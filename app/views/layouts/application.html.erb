@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>julianacat</title>
+  <!--
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  -->
+
+  <link href="public/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
+  <!--[if lte IE 8]><script src="assets/html5shiv.js"></script><![endif]-->
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/skel.min.js"></script>
+  <script src="assets/skel-panels.min.js"></script>
+  <script src="assets/init.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="assets/skel-noscript.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style-wide.css" />
+  </noscript>
+  <!--[if lte IE 9]><link rel="stylesheet" href="assets/ie9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/ie8.css" /><![endif]-->
+
+  <!-- Lightbox Javascripts -->
+  <script src="assets/lightbox.min.js"></script>
+  <link href="assets/lightbox.css" rel="stylesheet" />
+
+  <!-- Lazy Javascripts -->
+  <script type="text/javascript" src="assets/jquery.lazy.min.js"></script>
+
+  <script>
+      jQuery(document).ready(function() {
+          jQuery("img").lazy();
+      });
+  </script>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
