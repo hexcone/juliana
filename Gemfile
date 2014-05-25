@@ -44,10 +44,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# For contact form
-gem 'mail_form'
-gem 'simple_form'
-gem 'devise'
 
 group :development, :test do
   gem 'foreman'
