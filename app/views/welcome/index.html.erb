@@ -346,6 +346,34 @@
   </div>
 </section>
 
+<!-- Contact -->
+<section id="contact" class="five">
+  <div class="container">
+
+    <header>
+      <h2>Send me a Message</h2>
+    </header>
+
+      <%= form_for @message, :url => pages_path do |form| %>
+        <div class="row half">
+          <div class="6u"><%= form.text_field :name, :class=> "text", :placeholder => 'Name', :required => true %></div>
+          <div class="6u"><%= form.text_field :email, :class=> "text", :placeholder => 'Email', :required => true %></div>
+        </div>
+        <div class="row half">
+          <div class="12u">
+            <%= form.text_area :message, :placeholder => 'Message', :required => true %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="12u">
+            <%= form.submit "Send message", :class=> "button"  %>
+          </div>
+        </div>
+      <% end %>
+
+  </div>
+</section>
+
 </div>
 
 <!-- Footer -->

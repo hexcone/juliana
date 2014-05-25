@@ -1,5 +1,10 @@
 Julianacat::Application.routes.draw do
-  get "welcome/index"
+
+  resources :pages, controller: 'welcome', only: [:index, :create]
+  root 'welcome#index'
+  match "/home" => "welcome#index", :via => [:get]
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -54,5 +59,4 @@ Julianacat::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root :to => 'welcome#index'
 end
