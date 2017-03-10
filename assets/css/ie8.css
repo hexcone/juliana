@@ -13,19 +13,23 @@
 /* Type */
 
 	h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-		border-bottom: solid 2px #ffffff;
+		/** border-bottom: solid 2px #ffffff;*/
+		border-bottom: solid 2px #585858;
 	}
 
 	blockquote {
-		border-left: solid 4px #ffffff;
+		/** border-left: solid 4px #ffffff; */
+		border-left: solid 4px #585858;
 	}
 
 	code {
-		border: solid 2px #ffffff;
+		/** border: solid 2px #ffffff; */
+		border: solid 2px #585858;
 	}
 
 	hr {
-		border-bottom: solid 2px #ffffff;
+		/** border-bottom: solid 2px #ffffff; */
+		border-bottom: solid 2px #585858;
 	}
 
 /* Button */
@@ -37,7 +41,8 @@
 	.button {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
-		border: solid 2px #ffffff;
+		/** border: solid 2px #ffffff; */
+		border: solid 2px #585858;
 	}
 
 		input[type="submit"].special,
@@ -59,19 +64,22 @@
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 		background: transparent;
-		border: solid 2px #ffffff;
+		/** border: solid 2px #ffffff; */
+		border: solid 2px #585858;
 	}
 
 /* Table */
 
 	table tbody tr {
-		border: solid 1px #ffffff;
+		/** border: solid 1px #ffffff; */
+		border: solid 1px #585858;
 		border-left: 0;
 		border-right: 0;
 	}
 
 	table.alt tbody tr td {
-		border: solid 1px #ffffff;
+		/** border: solid 1px #ffffff; */
+		border: solid 1px #585858;
 		border-left-width: 0;
 		border-top-width: 0;
 	}
@@ -109,17 +117,20 @@
 /* Menu */
 
 	#menu {
-		background: #2e3141;
+		/** background: #2e3141; */
+		background: #ffffff;
 	}
 
 		#menu h2 {
-			border-bottom: solid 2px #ffffff;
+			/** border-bottom: solid 2px #ffffff; */
+			border-bottom: solid 2px #585858;
 		}
 
 /* Header */
 
 	#header {
-		background-color: #353849;
+		/** background-color: #353849; */
+		background-color: #fcfcfc;
 	}
 
 /* Wrapper */
@@ -144,20 +155,24 @@
 /* Banner */
 
 	#banner .logo .icon {
-		border: solid 2px #ffffff;
+		/** border: solid 2px #ffffff; */
+		border: solid 2px #585858;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
 	#banner h2 {
-		border-bottom: solid 2px #ffffff;
+		/** border-bottom: solid 2px #ffffff; */
+		border-bottom: solid 2px #585858;
 	}
 
 /* Footer */
 
 	#footer .inner .copyright {
-		border-top: solid 2px #ffffff;
+		/** border-top: solid 2px #ffffff; */
+		border-top: solid 2px #585858;
 	}
 
 		#footer .inner .copyright li {
-			border-left: solid 2px #ffffff;
+			/** border-left: solid 2px #ffffff; */
+			border-left: solid 2px #585858;
 		}
